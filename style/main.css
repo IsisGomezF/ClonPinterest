@@ -8,13 +8,6 @@
     --pin-small: 26;
 }
 
-@media (max-width: 768px) {
-    .nav-left{
-        display: none;
-        width: 49px;
-    }
-}
-
 body{
     margin: 0px;
     min-height: 100%;
@@ -25,6 +18,8 @@ body{
 a{
     text-decoration: none;
     color: #211922;
+    font-weight:bold;
+    padding: 0 16px;
 }
 
 
@@ -41,6 +36,18 @@ nav{
     z-index: 100;
 }
 
+.nav-start #logo{
+    padding: 0px;
+}
+.nav-start{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;
+}
 .nav-left{
     height: 100%;
     background-color: darkcyan;
@@ -51,9 +58,19 @@ nav{
     flex: 1 1 auto;
 }
 
-nav .nav-left a {
+/*nav .nav-left, .nav-start a {
     padding: 0 1rem;
     font-weight:bold
+}*/
+
+#create{
+    padding-right: 7px;
+}
+.nav-simbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
 }
 
 #down2{
