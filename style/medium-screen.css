@@ -1,13 +1,13 @@
 
-.nav-left{
+/*.nav-left{
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex: 1 1 auto;
-    /*z-index: auto;*/
-}
+    /*z-index: auto;
+}*/
 
 #start{
     width: 48px;

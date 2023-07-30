@@ -12,7 +12,6 @@ body{
     margin: 0px;
     min-height: 100%;
     overflow-y: scroll;
-    /*position: relative;*/
 }
 
 a{
@@ -27,7 +26,7 @@ nav{
     width: 100%;
     height: 80px;
     padding: 12px 1rem;
-    background-color: cadetblue;
+    background-color: white;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -50,18 +49,13 @@ nav{
 }
 .nav-left{
     height: 100%;
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex: 1 1 auto;
 }
-
-/*nav .nav-left, .nav-start a {
-    padding: 0 1rem;
-    font-weight:bold
-}*/
 
 #create{
     padding-right: 7px;
@@ -71,6 +65,7 @@ nav{
     justify-content: center;
     align-items: center;
     margin-top: 3px;
+    padding-right: 24px;
 }
 
 #down2{
@@ -92,8 +87,6 @@ nav{
     margin: 4px 8px 0 0;
     border-radius: 24px;
     background-color: #e9e9e9;
-    /*background-color: var(--color-background-secondary-base);
-    /*background-color: transparent;*/
     outline: none;
     border: none;
 }
@@ -112,23 +105,15 @@ input{
     font-weight: normal;
     font-size: 16px;
     background-color: transparent;
-    border: solid 1px;
+    border: none;
     padding: 0px;
-
-    /*;
-    border: medium none;
-    color: rgb(51, 51, 51);
-    /*height: 100%;*/
-    /*background-color: aliceblue ;
-    min-height: 0;
-    min-width: 0;*/
 }
 
 .nav-right{
     width: 168px;
     height: 100%;
     padding-left: 12px;
-    background-color:darkcyan;
+    /*background-color:darkcyan;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -164,10 +149,10 @@ nav img:active{
     grid-template-columns: repeat(auto-fill, var(--column-width));
     grid-auto-rows: var(--row-increment);
     justify-content: center;
-    background-color:aquamarine;
+    /*background-color:aquamarine;*/
     position: absolute;
-    margin-top: 4rem;
-    /*box-sizing: border-box;*/
+    margin-top: 5rem;
+
 }
 
 .pin {
@@ -189,9 +174,6 @@ nav img:active{
     background-repeat: no-repeat;
     background-size: 32px;
     background-position: right bottom;
-    /*background-clip: content-box;*/
-    /*background-attachment: scroll;*/
-    /*background-attachment: fixed;*/
 }
 
 button{
@@ -226,11 +208,3 @@ button{
     object-fit: fill;
 }
 
-/*.pin:hover::before{ 
-    content: url(../img/option-icon.svg);
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
-    position:absolute;
-    direction: end;
-}*/
